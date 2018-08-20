@@ -34,7 +34,7 @@ pipeline {
                         agent {
                                 docker {
                                         reuseNode false
-					sh 'ps'
+					image 'ubuntu'
                                         }
 			}
 				steps {
